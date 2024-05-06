@@ -4,8 +4,8 @@
     <title>Quinx Player</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
-    <link rel="stylesheet" href="resources/StreamCSS.css">
-    <link rel="stylesheet" href="resources/playerCss.css">
+    <link rel="stylesheet" href="https://aeditx03.github.io/resources/StreamCSS.css">
+    <link rel="stylesheet" href="https://aeditx03.github.io/resources/playerCss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
@@ -161,6 +161,7 @@
     </style>
 </head>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
 <body>
 <div class="header">
     <h2>Quinx Streaming Website<h2>
@@ -224,10 +225,10 @@
         const videoUrl = document.getElementById('videoUrlInput').value;
         if (videoUrl.trim() === "") {
             // Redirect to your Telegram account
-            window.location.href = 'https://t.me/YourTelegramAccount';
+            window.location.href = 'https://telegram.me/Shineii86';
         } else {
             // Proceed with searching the video
-            const mergedUrl = 'https://quinx.000webhostapp.com/m3u8player?video=' + encodeURIComponent(videoUrl);
+            const mergedUrl = 'https://quinx.000webhostapp.com/m3u8player.php?video=' + encodeURIComponent(videoUrl);
             window.location.href = mergedUrl;
         }
     }
