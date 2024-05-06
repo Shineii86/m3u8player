@@ -3,7 +3,20 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/rhunk/SnapEnhance/main/app/src/main/res/mipmap-xxxhdpi/launcher_icon_foreground.png" height="250" />
 
-  [![Build](https://img.shields.io/github/actions/)]() [![Total](https://shields.io/github/downloads/Shineii86/m3u8player/total?logo=Bookmeter&label=Downloads&logoColor=Green&color=Green)](https://github.com/rhunk/snapenhance/releases)
+[![Shineii86 - m3u8player](https://img.shields.io/static/v1?label=Shineii86&message=m3u8player&color=blue&logo=github)](https://github.com/Shineii86/m3u8player "Go to GitHub repo")
+[![stars - m3u8player](https://img.shields.io/github/stars/Shineii86/m3u8player?style=social)](https://github.com/Shineii86/m3u8player)
+[![forks - m3u8player](https://img.shields.io/github/forks/Shineii86/m3u8player?style=social)](https://github.com/Shineii86/m3u8player)
+
+[![GitHub tag](https://img.shields.io/github/tag/Shineii86/m3u8player?include_prereleases=&sort=semver&color=blue)](https://github.com/Shineii86/m3u8player/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![issues - m3u8player](https://img.shields.io/github/issues/Shineii86/m3u8player)](https://github.com/Shineii86/m3u8player/issues)
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/Shineii86/m3u8player/generate)
+
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://shineii86.github.io/m3u8player/)
+
   </div>
 Welcome to M3U8 Player! This is a lightweight JavaScript-based player for playing M3U8 streams. It supports live streaming as well as on-demand playback.
 
