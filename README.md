@@ -26,7 +26,7 @@ If you encounter any issues or have suggestions for improvement, please [open an
 
 ## Support
 
-For support or inquiries, please contact [support@example.com](mailto:ikx7a@hotmail.com).
+For support or inquiries, please contact [support@shinei.com](mailto:ikx7a@hotmail.com).
 
 ## License
 
