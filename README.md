@@ -38,7 +38,7 @@ const player = new M3U8Player('m3u8-player');
 
 ## Demo
 
-Check out the [live demo](https://example.com/m3u8player-demo) to see M3U8 Player in action!
+Check out the [live demo](https://shineii86.github.io/m3u8player/) to see M3U8 Player in action!
 
 ## Contributing
 
@@ -50,7 +50,7 @@ If you encounter any issues or have suggestions for improvement, please [open an
 
 ## Support
 
-For support or inquiries, please contact [support@example.com](mailto:support@example.com).
+For support or inquiries, please contact [support@example.com](mailto:ikx7a@hotmail.com).
 
 ## License
 
@@ -70,7 +70,3 @@ If you find M3U8 Player useful, consider giving it a star on GitHub and sharing 
 ### Credits
 
 M3U8 Player is developed and maintained by [Shineii86](https://github.com/Shineii86). If you use this player in your project, please give proper credit.
-
----
-
-Feel free to customize the README.md further to fit your specific needs.
