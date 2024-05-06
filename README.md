@@ -1,7 +1,10 @@
 # M3U8 Player
 
-![M3U8 Player Logo](https://example.com/m3u8player_logo.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rhunk/SnapEnhance/main/app/src/main/res/mipmap-xxxhdpi/launcher_icon_foreground.png" height="250" />
 
+  [![Build](https://img.shields.io/github/actions/)]() [![Total](https://shields.io/github/downloads/Shineii86/m3u8player/total?logo=Bookmeter&label=Downloads&logoColor=Green&color=Green)](https://github.com/rhunk/snapenhance/releases)
+  </div>
 Welcome to M3U8 Player! This is a lightweight JavaScript-based player for playing M3U8 streams. It supports live streaming as well as on-demand playback.
 
 ## Features
