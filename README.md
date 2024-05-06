@@ -7,34 +7,10 @@ Welcome to M3U8 Player! This is a lightweight JavaScript-based player for playin
 ## Features
 
 - Play M3U8 streams effortlessly.
-- Supports live streaming and on-demand playback.
+- ~Supports live streaming and on-demand playback.~
 - Lightweight and easy to integrate into web applications.
 - Customizable player controls.
 - Compatible with all modern web browsers.
-
-## Installation
-
-You can use the M3U8 Player library by including the JavaScript file in your HTML code:
-
-```html
-<script src="m3u8player.js"></script>
-```
-
-## Usage
-
-To use M3U8 Player, simply create a `<video>` element in your HTML code and specify the source URL of the M3U8 stream:
-
-```html
-<video id="m3u8-player" controls>
-  <source src="https://example.com/live/stream.m3u8" type="application/x-mpegURL">
-</video>
-```
-
-Then, initialize the player using JavaScript:
-
-```javascript
-const player = new M3U8Player('m3u8-player');
-```
 
 ## Demo
 
