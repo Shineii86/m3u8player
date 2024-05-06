@@ -1,7 +1,3 @@
- 
-
-Uploading 5_6181594666463400291.mp4…
-
 # M3U8 Player
 
 ![M3U8 Player Logo](https://example.com/m3u8player_logo.png)
