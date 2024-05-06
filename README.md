@@ -13,7 +13,7 @@
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/Shineii86/m3u8player/generate)
 
   </div>
-Welcome to M3U8 Player! This is a lightweight JavaScript-based player for playing M3U8 streams. It supports live streaming as well as on-demand playback.
+Welcome to M3U8 Player! This is a lightweight JavaScript-based player for playing M3U8 streams. ~It supports live streaming as well as on-demand playback.~
 
 ## Features
 
