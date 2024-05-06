@@ -1,5 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=M3U8%20PLAYER%20&textBg=false">
 
+<div align="center">
+  
 [![Shineii86 - m3u8player](https://img.shields.io/static/v1?label=Shineii86&message=m3u8player&color=blue&logo=github)](https://github.com/Shineii86/m3u8player "Go to GitHub repo")
 [![stars - m3u8player](https://img.shields.io/github/stars/Shineii86/m3u8player?style=social)](https://github.com/Shineii86/m3u8player)
 [![forks - m3u8player](https://img.shields.io/github/forks/Shineii86/m3u8player?style=social)](https://github.com/Shineii86/m3u8player)
