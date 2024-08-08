@@ -1,0 +1,156 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    position: relative;
+    color: #fff;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://graph.org/file/fa19fd5568315383e978e.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(1px);
+    z-index: -1;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    animation: fadeIn 1s ease;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: shadowPulse 2s infinite alternate;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes shadowPulse {
+    from {
+        text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.5); 
+    }
+    to {
+        text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7); 
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 200px); 
+    animation: slideInUp 1s ease;
+}
+
+.video-container {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+#my-video {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    animation: fadeIn 1s ease;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: rgba(255, 64, 129, 1);
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #cc0000;
+    color: white;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.text {
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
