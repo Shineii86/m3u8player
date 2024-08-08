@@ -12,242 +12,60 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-    
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            font-family: Arial, sans-serif;
-            position: relative;
-            color: #fff;
-        }
-
-        body::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('https://graph.org/file/fa19fd5568315383e978e.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            filter: blur(1px);
-            z-index: -1;
-        }
-
-        .header {
-            padding: 20px;
-            text-align: center;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-            animation: fadeIn 1s ease;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
-            margin-bottom: 20px; /* Added */
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 36px;
-            font-weight: 700;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-            animation: shadowPulse 2s infinite alternate;
-        }
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-        @keyframes shadowPulse {
-            from {
-                text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.5); 
-            }
-            to {
-                text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7); 
-            }
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: calc(100% - 200px); 
-            animation: slideInUp 1s ease;
-        }
-        .video-container {
-            position: relative;
-            width: 90%;
-            max-width: 800px;
-            height: 50%;
-            overflow: hidden;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-        }
-        #my-video {
-            width: 100%;
-            height: 100%;
-        }
-        p {
-            margin-top: 20px;
-            font-size: 18px;
-            font-weight: 300;
-            letter-spacing: 1px;
-            animation: fadeIn 1s ease;
-        }
-        .search-container input[type=text] {
-            padding: 10px;
-            border-radius: 5px;
-            border: none;
-            outline: none;
-            width: 300px;
-            margin-bottom: 10px;
-        }
-        .search-container button {
-            padding: 10px 20px;
-            background-color: #ff0000; /* Changed to red */
-            border: none;
-            border-radius: 5px;
-            color: #fff;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .search-container button:hover {
-            background-color: rgba(255, 64, 129, 1);
-        }
-        .button-row {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 10px; /* Adjust spacing between rows */
-        }
-        .custom-button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #ff0000; /* Changed to red */
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            transition-duration: 0.4s;
-            cursor: pointer;
-        }
-
-        .custom-button:hover {
-            background-color: #cc0000; /* Darker red */
-            color: white;
-        }
-        footer {
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-            background: transparent;
-            padding: 10px 0;
-        }
-                    color: #fff;
-        }
- .text {
-            text-align: center;
-            font-size: 13px;
-            color: #fff;
-        }
-    
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
 <body>
-<div class="header">
-    <h2>Quinx M3U8 Player<h2>
-</div>
-<div class="container">
-    <div class="video-container">
-        <video id='my-video' controls>
-            <source id="video-source" title='Video' type='video/mp4' />
-        </video>
+    <div class="header">
+    <h2><a href="https://github.com/Shineii86/m3u8player">Quinx M3U8 Player</a></h2>
     </div>
-    <p>Enjoy AdFree Content!</p><p>
-    <div class="search-container">
-        <input type="text" id="videoUrlInput" placeholder="Enter M3U8 Video URL Here">
-        
-        <button onclick="searchVideo()">Search</button>
-    </div>
-</div>
-<div class="text" style="text-align: center;">
-    <h3>Our All <span>Telegram Channels</span>  List</h3>
-    <div class="button-row">
-        <a class="magnet" href="https://t.me/MaximXAnime">
-            <button class="custom-button">Anime</button>
-        </a>
-        <a class="magnet" href="https://t.me/MaximXSticker">
-            <button class="custom-button">Stickers</button>
-        </a>
-        <a class="magnet" href="https://t.me/MaximXWallpaper">
-            <button class="custom-button">Wallpaper</button>
-        </a>
-    </div>
-</div>
-
-<div class="text" style="text-align: center;">
-    <p style="font-weight: 500;">
-        Welcome To Our Online Streaming Platform! Please Note That We Are Not Responsible For The Content Shared Or
-        Streamed Through Our Service. Users Are Encouraged To Respect Copyright Laws And Adhere To Our
-        Community Guidelines. Enjoy Easy, Hassle-Free File Streaming Service.
-    </p>
-</div>
-
-
-<footer>
-    <div class="copyright ">
-        <h5 class="text-center">This Page Is Designed By <a href="https://t.me/Shineii86" style="text-decoration: none;"><span style="font-weight: bold; color: red; text-shadow:1px 1px 1px black;">Shinei Nouzen</span></a></h5>
-
-        <div class="icons">
-            <a href="https://github.com/Shineii86" style="text-decoration: none;"><i class="fa-brands fa-github fa-lg"></i></a>
-            <a href="https://t.me/Shineii86" style="text-decoration: none;"><i class="fa-brands fa-telegram fa-lg"></i></a>
-            <a href="https://www.pinterest.com/ikx7a" style="text-decoration: none;"><i class="fa-brands fa-pinterest fa-lg"></i></a>
-            <a href="https://youtube.com/@ikx7a?si=o-w59oWeUM0EM7fa" style="text-decoration: none;"><i class="fa-brands fa-youtube fa-lg"></i></a>
-            <a href="https://www.instagram.com/ikx7.a" style="text-decoration: none;"><i class="fa-brands fa-instagram fa-lg"></i></a>
+    <div class="container">
+        <div class="video-container">
+            <video id='my-video' controls>
+                <source id="video-source" title='Video' type='video/mp4' />
+            </video>
+        </div>
+        <p>Enjoy AdFree Content!</p>
+        <div class="search-container">
+            <input type="text" id="videoUrlInput" placeholder="Enter M3U8 Video URL Here">
+            <button onclick="searchVideo()">Search</button>
         </div>
     </div>
-    <div class="copyright ">
-        <h4 class="text-center">Copyright © 2024 <a href="https://t.me/QuinxNetwork" style="text-decoration: none;"><span style="font-weight: bold; color: red; text-shadow: 1px 1px 1px black;">Quinx</span></a>, All Rights Reserved.</h4>
+    <div class="text">
+        <h3>Our All <span>Telegram Channels</span> List</h3>
+        <div class="button-row">
+            <a class="magnet" href="https://t.me/MaximXAnime">
+                <button class="custom-button">Anime</button>
+            </a>
+            <a class="magnet" href="https://t.me/MaximXSticker">
+                <button class="custom-button">Stickers</button>
+            </a>
+            <a class="magnet" href="https://t.me/MaximXWallpaper">
+                <button class="custom-button">Wallpaper</button>
+            </a>
+        </div>
     </div>
-</footer>
-
-<script>
-    function searchVideo() {
-        const videoUrl = document.getElementById('videoUrlInput').value;
-        if (videoUrl.trim() === "https://github.com/Shineii86/m3u8player/blob/main/resources/ShadowGarden.mp4") {
-            // Redirect to your Telegram account
-            window.location.href = 'https://telegram.me/Shineii86';
-        } else {
-            // Proceed with searching the video
-            const mergedUrl = 'https://shineii86.github.io/m3u8player/?video='+ encodeURIComponent(videoUrl);
-            window.location.href = mergedUrl;
-        }
-    }
-
-    const urlParams = new URLSearchParams(window.location.search);
-    const videoUrl = urlParams.get('video') || 'https://github.com/Shineii86/m3u8player/raw/main/resources/ShadowGarden.mp4';
-    const videoSource = document.getElementById('video-source');
-    videoSource.src = videoUrl;
-
-    fluidPlayer(
-        'my-video',
-        {
-            layoutControls: {
-                primaryColor: "rgba(224, 64, 251, 0.8)",
-                allowDownload: true
-            }
-        }
-    );
-    
-</script>
+    <div class="text">
+        <p>
+            Welcome To Our Online Streaming Platform! Please Note That We Are Not Responsible For The Content Shared Or
+            Streamed Through Our Service. Users Are Encouraged To Respect Copyright Laws And Adhere To Our
+            Community Guidelines. Enjoy Easy, Hassle-Free File Streaming Service.
+        </p>
+    </div>
+    <footer>
+        <div class="copyright">
+            <h5 class="text-center">This Page Is Designed By <a href="https://t.me/Shineii86" style="text-decoration: none;"><span style="font-weight: bold; color: red; text-shadow:1px 1px 1px black;">Shinei Nouzen</span></a></h5>
+            <div class="icons">
+                <a href="https://github.com/Shineii86" style="text-decoration: none;"><i class="fa-brands fa-github fa-lg"></i></a>
+                <a href="https://telegram.me/Shineii86" style="text-decoration: none;"><i class="fa-brands fa-telegram fa-lg"></i></a>
+                <a href="https://www.pinterest.com/ikx7a" style="text-decoration: none;"><i class="fa-brands fa-pinterest fa-lg"></i></a>
+                <a href="https://youtube.com/@ikx7a?si=o-w59oWeUM0EM7fa" style="text-decoration: none;"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                <a href="https://www.instagram.com/ikx7.a" style="text-decoration: none;"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <h4 class="text-center">Copyright © 2024 <a href="https://t.me/QuinxNetwork" style="text-decoration: none;"><span style="font-weight: bold; color: red; text-shadow: 1px 1px 1px black;">Quinx</span></a>, All Rights Reserved.</h4>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
