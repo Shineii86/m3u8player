@@ -263,6 +263,6 @@ If you need help or have questions:
 
   <sup><b>Copyright © 2025 <a href="https://telegram.me/Shineii86">Shinei Nouzen</a> All Rights Reserved</b></sup>
 
-![Last Commit](https://img.shields.io/github/last-commit/AniStream/AniList?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/Shineii86/AniStream?style=for-the-badge)
 
 </div>
