@@ -12,6 +12,8 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Shineii86/AniStream?style=for-the-badge&logo=github&color=yellow)](https://github.com/Shineii86/AniStream/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/Shineii86/AniStream?style=for-the-badge&logo=github&color=orange)](https://github.com/Shineii86/AniStream/issues)
 
+![Repo Size](https://img.shields.io/github/repo-size/Shineii86/AniStream?style=for-the-badge) [![GitHub Stars](https://img.shields.io/github/stars/Shineii86/AniStream?style=for-the-badge)](https://github.com/Shineii86/AniStream/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/Shineii86/AniStream?style=for-the-badge)](https://github.com/Shineii86/AniStream/fork)
+
 </div>
 
 ## ✨ Features
