@@ -6,7 +6,7 @@
 ![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**A sleek, modern M3U8 streaming player with beautiful UI and smooth performance**
+*A sleek, modern M3U8 streaming player with beautiful UI and smooth performance*
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-8B5CF6?style=for-the-badge&logo=web&logoColor=white)](https://shineii86.github.io/AniStream/)
 [![GitHub Stars](https://img.shields.io/github/stars/Shineii86/AniStream?style=for-the-badge&logo=github&color=yellow)](https://github.com/Shineii86/AniStream/stargazers)
